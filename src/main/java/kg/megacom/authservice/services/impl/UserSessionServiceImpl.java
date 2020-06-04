@@ -17,6 +17,7 @@ public class UserSessionServiceImpl implements UserSessionService {
    private UserSessionRep userSessionRep;
     @Override
     public String getToken() {
+
         return UUID.randomUUID().toString();
     }
 
